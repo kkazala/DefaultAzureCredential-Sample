@@ -144,6 +144,8 @@ AZURE_CLOUD_INSTANCE= "https://login.microsoftonline.com/"
 GRAPH_API_ENDPOINT= "https://graph.microsoft.com/"
 ```
 
+> Note: Needless to say, you wouldn't normally commiting the `*.pem` or `.env` files to the repo 😊.
+
 ## Implementation
 
 The setup is now ready and you can use the `DefaultAzureCredential` to authenticate. Make sure to import the environment variables from the `.env.cert`
