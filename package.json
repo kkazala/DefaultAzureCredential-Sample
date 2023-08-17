@@ -1,0 +1,26 @@
+{
+  "name": "default-azure-credential-sample",
+  "version": "1.0.0",
+  "description": "DefaultAzureCredential Sample",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=16.18.0 "
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "test": "jest"
+  },
+  "author": "Kinga Kazala",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "3.3.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "16.18.38",
+    "typescript": "^4.0.0"
+  }
+}
